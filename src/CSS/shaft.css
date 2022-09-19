@@ -1,0 +1,207 @@
+@font-face {
+    font-family: pop;
+    src: url(../Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: bal;
+    src: url(../Baloo-Regular.ttf);
+  }
+  .sh{
+    display:flex;
+    padding:2vw;
+  }
+  .s1{
+    padding:3vw;
+    width:50%;
+    display:inline;
+    background:linear-gradient(to top,rgb(254, 153, 11),white)
+  }
+  .s1 h1, .I1 h1{
+    font-family: bal;
+    font-size: 50px;
+    color:rgb(0, 162, 255);
+  }
+  .s1 span{
+    display: block;
+    font-weight: bold;
+    font-family: pop;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .I1{
+    width:40%;
+    display:inline;
+    padding:2vw;
+    border:3px solid;
+    border-radius: 5px;
+    box-shadow:0 0 10px black;
+    background:linear-gradient(to left,rgb(11, 141, 254),white)
+  }
+.I1 input {
+        font-size:18px;
+        padding:10px 10px 10px 5px;
+        display:block;
+        width:300px;
+        border:none;
+        border-bottom:1px solid #757575;
+      }
+      input:focus     { outline:none; }
+      
+      /* LABEL ======================================= */
+      label          {
+        color:#999; 
+        font-size:18px;
+        font-weight:normal;
+        position:absolute;
+        pointer-events:none;
+        left:5px;
+        top:10px;
+        transition:0.2s ease all; 
+        -moz-transition:0.2s ease all; 
+        -webkit-transition:0.2s ease all;
+      }
+      
+      /* active state */
+      input:focus ~ label, input:valid ~ label    {
+        top:-20px;
+        font-size:14px;
+        color:#5264AE;
+      }
+      
+      /* BOTTOM BARS ================================= */
+      .bar  { position:relative; display:block; width:300px; }
+      .bar:before, .bar:after   {
+        content:'';
+        height:2px; 
+        width:0;
+        bottom:1px; 
+        position:absolute;
+        background:#5264AE; 
+        transition:0.2s ease all; 
+        -moz-transition:0.2s ease all; 
+        -webkit-transition:0.2s ease all;
+      }
+      .bar:before {
+        left:50%;
+      }
+      .bar:after {
+        right:50%; 
+      }
+.I1 button{
+    margin-top: 2vw;
+    background:linear-gradient(to left,white,rgb(44, 145, 252));
+    color:white;
+    border:2px solid black;
+}
+
+.ratio h6{
+  font-size:15px;
+}
+.ratio input{
+  font-weight: bold;
+  padding:5px;
+  font-size:15px;
+  font-family:pop;
+  border:none;
+  border-bottom: 3px solid rgb(0, 179, 255);
+}
+.rg{
+  width:80%;
+  margin:auto;
+}
+.rg span{
+  font-family: bal;
+}
+.rg h1{
+  font-family: bal;
+  color:rgb(22, 150, 255);
+}
+.rg input{
+  display: block;
+  margin-top:10px ;
+  border:2px solid rgb(0, 195, 255);
+  padding:1vw;
+}
+.st{
+  width:80%;
+  margin:auto;
+  background:linear-gradient(to top,rgb(128, 254, 11),white)
+}
+.st h5{
+  font-size:20px;
+  font-family: bal;
+  
+}
+.st .ia,.st .sp{
+  margin:10px;
+  display: block;
+}
+.asme,.asmeno{
+  padding:3vw;
+  background:linear-gradient(rgb(11, 141, 254),white)
+}
+.asme input,.asmeno input{
+  margin-right: 1.5vw;
+  padding:.5vw;
+  border:2px solid orange;
+  font-family: pop;
+  font-size: 15px;
+}
+.asme span,.asmeno span{
+  display: block;
+  margin-top:1vw;
+}
+.asme h1,.asmeno h1{
+  color:white;
+  font-family: bal;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background:linear-gradient(rgb(11, 141, 254),white);
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: 50%;
+  height:50%;
+  text-align: center;
+}
+.modal-content h3{
+  padding-top:0;
+  margin-top: 0;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color:black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-content span{
+  font-family: bal;
+  padding:1vw;
+  color:white;
+  font-size:20px;
+  display: block;
+}

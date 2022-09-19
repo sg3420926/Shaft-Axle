@@ -1,0 +1,11 @@
+@font-face {
+    font-family: pop;
+    src: url(../Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: bal;
+    src: url(../Baloo-Regular.ttf);
+  }
+  .A1{
+    padding:3vw;
+  }
